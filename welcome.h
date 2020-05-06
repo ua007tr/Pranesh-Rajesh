@@ -14,7 +14,7 @@ void welcome()
                   locate(39,13);
                   printf("TO");
                   locate(27,15);
-                  printf(" %c%c%c%c Cricket score sheet %c%c%c%c",3,3,3,3,3,3,3,3);
+                  printf(" %c%c%c%c Cricket Score Sheet %c%c%c%c",3,3,3,3,3,3,3,3);
                   locate(27,17);
                   printf("%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%"
                          ,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3);
@@ -30,7 +30,7 @@ void welcome()
                   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_BLUE );
                   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_BLUE );
                   locate(27,29);
-                  printf("\tcodewitc.c",16);
+                  printf("\tMyCaptain",16);
 
                   for(y=35;y<=58;y++)
                   {
